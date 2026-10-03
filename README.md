@@ -48,6 +48,10 @@ Signoff metrics at 150 MHz (`CLOCK_PERIOD = 6.67 ns`):
 | Worst hold slack (all corners) | +0.0428 ns (`max_ss_100C_1v60`) |
 | Setup/hold violations | 0, across all 9 PVT corners |
 
+## Layout
+
+![GDS Layout](docs/gds_layout.png)
+
 ### Design and debug notes
 
 A few real issues came up going from RTL to a signed-off layout, worth noting since they're the actual engineering content of this project, not just "ran the flow":
