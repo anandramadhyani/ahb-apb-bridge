@@ -1,0 +1,6 @@
+runs/
+*.odb
+*.def
+*.def.gz
+__pycache__/
+*.vcd

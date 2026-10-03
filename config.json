@@ -1,0 +1,19 @@
+{
+  "DESIGN_NAME": "bridge_top",
+  "VERILOG_FILES": [
+    "dir::src/bridge_top.sv",
+    "dir::src/ahb_slave.sv",
+    "dir::src/apb_master.sv",
+    "dir::src/address_decoder.sv",
+    "dir::src/timeout_counter.sv",
+    "dir::src/control_fsm.sv"
+  ],
+  "CLOCK_PORT": "hclk",
+  "CLOCK_PERIOD": 6.67,
+  "FP_SIZING": "absolute",
+  "DIE_AREA": "0 0 300 300",
+  "PNR_SDC_FILE": "dir::src/constraints.sdc",
+  "SIGNOFF_SDC_FILE": "dir::src/constraints.sdc",
+  "GRT_REPAIR_ANTENNAS": true,
+  "RUN_HEURISTIC_DIODE_INSERTION": true
+}
